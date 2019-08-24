@@ -1,6 +1,6 @@
 import React from 'react'
 import ArticleList from './ArticleList'
-
+import 'bootstrap/dist/css/bootstrap.css'
 import articles from '../database.js'
 
 function App() {
