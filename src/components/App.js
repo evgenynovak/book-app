@@ -5,9 +5,11 @@ import articles from '../database.js'
 
 function App() {
  return (
-    <div>
-        <h1>App Name</h1>
-        <ArticleList articles={articles}/>
+    <div className="container">
+      <div className="jumbotron">
+        <h1 className="display-3">App Name</h1>
+      </div>
+      <ArticleList articles={articles}/>
     </div>
   );
 }
